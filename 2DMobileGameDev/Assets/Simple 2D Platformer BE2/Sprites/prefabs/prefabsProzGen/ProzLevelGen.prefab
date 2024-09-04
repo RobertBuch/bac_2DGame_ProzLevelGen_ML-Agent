@@ -1,0 +1,58 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6254200170886907139
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1582528087381037972}
+  - component: {fileID: 2496449583078325281}
+  m_Layer: 0
+  m_Name: ProzLevelGen
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1582528087381037972
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6254200170886907139}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 12.586066, y: 0, z: -0.080397785}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2496449583078325281
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6254200170886907139}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48a25fb2c517dbe43b5ef495171199d3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  seed: 100
+  difficultyHard: 0
+  GroundTilemapProzGen: {fileID: 0}
+  tile: {fileID: 11400000, guid: 58080ae7301f89548b8984aabbe8a544, type: 2}
+  movingPlatformY: {fileID: 0}
+  player: {fileID: 8750438307816540977, guid: 836f050af378781479c2b817dbee3239, type: 3}
+  objects: []
+  coins: {fileID: 0}
+  enemys: {fileID: 0}
+  checkpoint: {fileID: 0}
+  finish: {fileID: 0}
+  spikes: {fileID: 0}
